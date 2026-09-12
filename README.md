@@ -117,6 +117,3 @@ After Magento is installed with database host `db`, OpenSearch host
 docker compose up -d web
 docker compose ps
 ```
-
-The complete source-level explanation is in
-[`docs/TECHNICAL_ANALYSIS.md`](docs/TECHNICAL_ANALYSIS.md).
