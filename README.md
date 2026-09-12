@@ -3,6 +3,9 @@
 Private research repository for the HTTP-only reproduction of StyleSmuggler,
 CVE-2026-75650, against a local Magento Open Source lab.
 
+Read the full technical walkthrough in
+[Magento StyleSmuggler RCE: Report Poisoning to Code Execution](https://fortbridge.co.uk/research/stylesmuggler-magento-unauthenticated-rce/).
+
 The Python PoC performs the complete unauthenticated sequence:
 
 1. poison a Magento error report and read its report ID from the response;
